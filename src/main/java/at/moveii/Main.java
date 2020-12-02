@@ -1,6 +1,7 @@
 package at.moveii;
 
 import at.moveii.days.Day01;
+import at.moveii.days.Day02;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -48,6 +49,11 @@ public class Main {
     public void callDay01(Stream<String> input, String[] args) {
         int expectedSum = Integer.parseInt(args[1]);
         new Day01(input, expectedSum);
+    }
+
+    @SuppressWarnings("unused")
+    public void callDay02(Stream<String> input, String[] args) {
+        new Day02(input);
     }
 
     public static void main(String[] args) {
