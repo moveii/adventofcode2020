@@ -2,6 +2,7 @@ package at.moveii;
 
 import at.moveii.days.Day01;
 import at.moveii.days.Day02;
+import at.moveii.days.Day03;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -54,6 +55,11 @@ public class Main {
     @SuppressWarnings("unused")
     public void callDay02(Stream<String> input, String[] args) {
         new Day02(input);
+    }
+
+    @SuppressWarnings("unused")
+    public void callDay03(Stream<String> input, String[] args) {
+        new Day03(input);
     }
 
     public static void main(String[] args) {
